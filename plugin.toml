@@ -1,0 +1,13 @@
+name = "lapce-omnisharp"
+display-name = "OmniSharp"
+description = "OmniSharp (C#) server for Lapce"
+version = "0.1.0"
+author = "AsriFox"
+repository = "AsriFox/lapce-omnisharp"
+wasm = "lapce-omnisharp.wasm"
+
+[configuration]
+language_id = "csharp"
+[configuration.options.diagnostics]
+enable = false
+enableExperimental = false
